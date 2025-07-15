@@ -1,0 +1,51 @@
+.svelte-e8n7p6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: skyblue;
+    margin-left: 10px;
+    display: none;
+}
+
+/*标签悬浮时兄弟节点（提示信息）显示*/
+/*.svelte-1gfkn6j.has-info:hover+.svelte-e8n7p6{*/
+/* font-size: 12px;*/
+/* display: inline;*/
+/*}*/
+
+/* div里有svelte-3pzdsv（checkbox）的该div下的第一个.svelte-e8n7p6（提示信息）变动样式 */
+/*div:has(.svelte-3pzdsv):hover>.svelte-e8n7p6:nth-child(1){*/
+/* font-size: 12px;*/
+/* display: inline;*/
+/*}*/
+
+div:hover > .svelte-e8n7p6 {
+    display: inline;
+}
+
+div:hover > label > .svelte-e8n7p6 {
+    display: inline;
+}
+
+/* 矫正画布位置 */
+canvas {
+    max-width: 500px !important;
+    max-height: 500px !important; /* 画布大小-50px; */
+    /*margin-top: -16% !important; !* 校正画布和鼠标 *!*/
+    /*padding-top: 25px !important;*/
+    padding-top: 16px !important;
+}
+
+/* ImageMask的工具栏上浮，避免遮挡 */
+.tools-wrap.svelte-1mn8392 {
+    /*position: relative;*/
+    /*top: -20px;*/
+    margin-top: 0 !important; /* 初始的margin是自动计算的 */
+}
+
+#diy__auto_text_image_to_video____image_to_text__prompt textarea{
+    height: 100px;
+}
+
+#diy__auto_text_image_to_video____text_to_text__prompt textarea{
+    height: 500px;
+}
