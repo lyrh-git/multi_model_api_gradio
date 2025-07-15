@@ -1483,5 +1483,5 @@ class TEST(unittest.TestCase):
                 f.write(chunk)
 
     def test_text_to_video(self):
-        prompt = "昏黄的阳光下，是干枯的垂下的朵朵花朵的近景，随着微风轻轻摇曳 。"
+        prompt = "昏黄的阳光下，是干枯的垂下的朵朵花朵的近景，随着微风轻轻摇曳。"
         result = self.jimeng_api.text_to_video(prompt)
