@@ -2,6 +2,7 @@
 python api_service.py （开启gradio前端服务）
 python flask_service.py （开启代理，实现在线图片下载和转发成外网可访问的url）
 
+
 # 代理
 对应到config的NGINX
 ## ngrok
