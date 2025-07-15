@@ -1452,7 +1452,6 @@ class TEST(unittest.TestCase):
         # input_path = "/Users/admin/Files/评测/文生图/图片/source/小红书种草文案封图/案例图片/美食-鲜花蛋糕1.png"
         input_path = "https://static5.yingsaidata.com/ab7d47f094c7a546dee91a6e4b1ea9d2.png"
         input_path = "/Users/admin/Downloads/水彩图画风格。背景上方大面积留白，写有文字“雅诗兰黛”、“第七代小棕瓶精华”。画面下方是一瓶打开的雅诗兰黛小棕瓶修复精华，瓶身背后是很大的浅黄色的水滴形状的轮.jpeg"
-
         prompt = "背景下方是大理石桌面，背景上方是米白色的室内墙面，光影明媚。有可爱的手绘、简约线条的涂鸦简笔画点缀，比如爱心、气球等，最右边有一个手绘的卡通小女孩在趴着看蛋糕。整体是小清新风格。"
         self.jimeng_api.product_repaint(prompt, input_path, output_path=None)
 
