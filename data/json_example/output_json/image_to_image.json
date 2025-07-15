@@ -1,0 +1,57 @@
+{
+  "code": 10000,
+  "data": {
+    "algorithm_base_resp": {
+      "status_code": 0,
+      "status_message": "Success"
+    },
+    "binary_data_base64": [],
+    "comfyui_cost": 6,
+    "controlnet_args": [
+      {
+        "binary_data_index": 1,
+        "strength": 0.8,
+        "type": "canny"
+      }
+    ],
+    "controlnet_args.canny.binary_data_index": 1,
+    "controlnet_args.canny.strength": 0.8,
+    "controlnet_args.depth.binary_data_index": 0,
+    "controlnet_args.depth.strength": 0,
+    "controlnet_args.pose.binary_data_index": 0,
+    "controlnet_args.pose.strength": 0,
+    "custom_prompt": "生成国潮国风的背景。",
+    "ddim_steps": 20,
+    "etta_args.binary_data_index": 3,
+    "image_urls": [
+      "https://p26-aiop-sign.byteimg.com/tos-cn-i-vuqhorh59i/202412252216573D38729144A3DF87DC17-0~tplv-vuqhorh59i-image.image?rk3s=7f9e702d&x-expires=1735222627&x-signature=l2RfyXCpf8hbf2nH1GOEky%2B18Pw%3D",
+      "https://p26-aiop-sign.byteimg.com/tos-cn-i-vuqhorh59i/202412252216573D38729144A3DF87DC17-1~tplv-vuqhorh59i-image.image?rk3s=7f9e702d&x-expires=1735222627&x-signature=bteZkizkkn5uroYsgvvXHX1NmYE%3D"
+    ],
+    "logo_info": {
+      "add_logo": False,
+      "language": 0,
+      "logo_text_content": "",
+      "opacity": 0.3,
+      "position": 2
+    },
+    "multi_pipeline_select_key": "t2i",
+    "prompt": "Generate the background of the national tide.",
+    "prompt_translated": "Generate the background of the national tide.",
+    "request_id": "ceb7f1662a5b73cc32087d38fd380440fc6d5725271bd55c9c0dc225841264a0",
+    "return_url": True,
+    "scale": 10,
+    "seed": -1,
+    "style_reference_args": {
+      "binary_data_index": 2,
+      "id_weight": 2,
+      "style_weight": 0.8
+    },
+    "style_reference_args.binary_data_index": 2,
+    "style_reference_args.id_weight": 2,
+    "style_reference_args.style_weight": 0.8
+  },
+  "message": "Success",
+  "request_id": "202412252216573D38729144A3DF87DC17",
+  "status": 10000,
+  "time_elapsed": "8.014743078s"
+}

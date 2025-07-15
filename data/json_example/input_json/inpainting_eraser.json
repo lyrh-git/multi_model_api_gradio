@@ -1,0 +1,8 @@
+{
+    "binary_data_base64": ["原图", "原图涂抹/标注后的mask"],
+    "req_key": "i2i_inpainting",
+    "scale": 7,
+    "seed": 0,
+    "steps": 30,
+    "strength": 0.8
+}

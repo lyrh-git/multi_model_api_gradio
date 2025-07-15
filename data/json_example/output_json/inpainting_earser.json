@@ -1,0 +1,16 @@
+{
+    "code": 10000,
+    "data": {
+        "algorithm_base_resp": {
+            "status_code": 0,
+            "status_message": "Success"
+        },
+        "binary_data_base64": ["消除图base64"],
+        "image_urls":["消除图url"],
+        "request_id": "740d84695b1a51a5e36f7559"
+    },
+    "message": "Success",
+    "request_id": "2024031411153853949433144E29001798",
+    "status": 10000,
+    "time_elapsed": "3.940519854s"
+}

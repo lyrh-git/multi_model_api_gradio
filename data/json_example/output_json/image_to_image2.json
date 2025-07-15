@@ -1,0 +1,54 @@
+{
+    "code": 10000,
+    "data": {
+        "algorithm_base_resp": {
+            "status_code": 0,
+            "status_message": "Success"
+        },
+        "binary_data_base64": [
+
+        ],
+        "comfyui_cost": 7,
+        "controlnet_args": [
+            {
+                "binary_data_index": 1,
+                "strength": 0.4,
+                "type": "canny"
+            }
+        ],
+        "controlnet_args.canny.binary_data_index": 1,
+        "controlnet_args.canny.strength": 0.4,
+        "controlnet_args.depth.binary_data_index": 0,
+        "controlnet_args.depth.strength": 0,
+        "controlnet_args.pose.binary_data_index": 0,
+        "controlnet_args.pose.strength": 0,
+        "custom_prompt": "将这个图片改成一个旅游宣传海报，小清新风格，上面写有文字“日月贝”。xxx",
+        "ddim_steps": 16,
+        "etta_args.binary_data_index": 2,
+        "image_urls": [
+            "https://p26-aiop-sign.byteimg.com/tos-cn-i-vuqhorh59i/20250217111032935EF4FD7CE7B55AF12E-0~tplv-vuqhorh59i-image.image?rk3s=7f9e702d&x-expires=1739848241&x-signature=HkH%2FlKlZBl9GNMQI51BUl5U%2FWUg%3D",
+            "https://p26-aiop-sign.byteimg.com/tos-cn-i-vuqhorh59i/20250217111032935EF4FD7CE7B55AF12E-1~tplv-vuqhorh59i-image.image?rk3s=7f9e702d&x-expires=1739848241&x-signature=baRUjMQBzWci08ekbglHXGL%2Fbu8%3D"
+        ],
+        "logo_info": {
+            "add_logo": false,
+            "language": 0,
+            "logo_text_content": "",
+            "opacity": 0.3,
+            "position": 2
+        },
+        "multi_pipeline_select_key": "t2i",
+        "prompt": "Turn this picture into a travel promotional poster, small fresh style, with the text \"SunMoonBay\" written on it.",
+        "prompt_translated": "Turn this picture into a travel promotional poster, small fresh style, with the text \"SunMoonBay\" written on it.",
+        "request_id": "d91822b7b9dc62d1856c67e4b1e79445351040cfbd6b97e593fa824f3a51230e",
+        "return_url": true,
+        "scale": 3,
+        "seed": -1,
+        "style_reference_args.binary_data_index": 0,
+        "style_reference_args.id_weight": 0,
+        "style_reference_args.style_weight": 0
+    },
+    "message": "Success",
+    "request_id": "20250217111032935EF4FD7CE7B55AF12E",
+    "status": 10000,
+    "time_elapsed": "8.625766312s"
+}

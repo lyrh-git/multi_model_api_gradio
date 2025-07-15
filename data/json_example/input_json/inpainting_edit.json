@@ -1,0 +1,8 @@
+{
+    "binary_data_base64": ["原图", "原图涂抹/标注后的mask"],
+    "custom_prompt": "一只小狗",  // 写入Prompt，AIGC生成取代的内容
+    "req_key": "i2i_inpainting_edit",
+    "scale": 5,
+    "seed": -1,
+    "steps": 25
+}

@@ -1,0 +1,21 @@
+{
+    "code": 10000,
+    "data": {
+        "algorithm_base_resp": {
+            "status_code": 0,
+            "status_message": "Success"
+        },
+        "binary_data_base64": [],
+        "image_urls": [
+            "https://xxx "
+        ],
+        "pe_result": "",
+        "predict_tags_result": "",
+        "rephraser_result": "",
+        "request_id": "cece14795209cf7e39a9d3060c02e28542d96808f7413e2e7d2fdb86510655d5"
+    },
+    "message": "Success",
+    "request_id": "2024110517020569520218533D2EA96060",
+    "status": 10000,
+    "time_elapsed": "7.545501615s"
+}

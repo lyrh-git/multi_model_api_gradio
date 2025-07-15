@@ -1,0 +1,21 @@
+{
+    "code": 10000,
+    "data": {
+        "algorithm_base_resp": {
+            "status_code": 0,
+            "status_message": "Success"
+        },
+        "binary_data_base64": [],
+        "image_urls": [
+            "https://xxx"
+        ],
+        "pe_result": "",
+        "predict_tags_result": "",
+        "rephraser_result": "历史战争风格，千军万马。画面中，众多士兵骑着战马，手持长矛和盾牌，整齐划一地行进在战场上。背景是广阔的战场，尘土飞扬，远处可见战旗飘扬。广角镜头，远景，强烈光影。",
+        "request_id": "6c2b84486031b7dcb011a9d1c8ed29e3777f25ca08db1f3e5e4b754df4718ee9"
+    },
+    "message": "Success",
+    "request_id": "2024111114552269F2FA168B2B322E00E8",
+    "status": 10000,
+    "time_elapsed": "10.887140905s"
+}

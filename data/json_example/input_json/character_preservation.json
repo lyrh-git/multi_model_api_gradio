@@ -1,0 +1,24 @@
+{
+    "req_key": "high_aes_ip_v20",
+    // "binary_data_base64": [], // 与image_url二选一
+    "image_urls": ["https://xxx"],
+    "prompt": "千军万马",
+    "desc_pushback": true,
+    "seed": -1,
+    "scale": 3.5,
+    "ddim_steps": 9,
+    "width": 512,
+    "height": 512,
+    "cfg_rescale": 0.7,
+    "ref_ip_weight": 0.7,
+    "ref_id_weight": 0.36,
+    "use_sr": true,
+    "return_url": true,
+    "logo_info": {
+        "add_logo": false,
+        "position": 0,
+        "language": 0,
+        "opacity": 0.3,
+        "logo_text_content": "这里是明水印内容"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "code": 10000,
+    "data": {
+        "algorithm_base_resp": {
+            "status_code": 0,
+            "status_message": "Success"
+        },
+        "bbox": [
+            [
+                1096,
+                438,
+                1857,
+                1766
+            ]
+        ],
+        "binary_data_base64": [
+            ""
+        ],
+        "contours_point": [
+            [
+                [
+                    [
+                        2076,
+                        440
+                    ],
+                    [
+                        2058,
+                        441
+                    ]
+                ]
+            ]
+        ],
+        "ori_height": [
+            2204
+        ],
+        "ori_width": [
+            3306
+        ],
+        "seg_score": [
+            0.005572378635406494
+        ],
+        "shadow": [
+            null
+        ],
+        "shadow_pos": [
+            null
+        ]
+    },
+    "message": "Success",
+    "request_id": "202408151152110AC5DB88EDFEDACF402A",
+    "status": 10000,
+    "time_elapsed": "1.440610818s"
+}

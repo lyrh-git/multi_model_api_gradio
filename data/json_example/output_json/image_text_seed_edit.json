@@ -1,0 +1,22 @@
+{
+    "code": 10000,
+    "data": {
+        "algorithm_base_resp": {
+            "status_code": 0,
+            "status_message": "Success"
+        },
+        "binary_data_base64": [],
+        "image_urls": [
+            "https://xxx"
+        ],
+        "pe_result": "",
+        "predict_tags_result": "",
+        "rephraser_result": "",
+        "request_id": "21e069c9c5448af8a05f9ac8f473fc51cdf3ab07ad5656e39825448851646cc8",
+        "vlm_result": "一个穿着带有粉色条纹的浅粉色衬衫的男人，看起来很生气。背景是单一的灰色。xxx"
+    },
+    "message": "Success",
+    "request_id": "20241119114718783B9ECBF37C13C29CB2",
+    "status": 10000,
+    "time_elapsed": "8.49180031s"
+}
