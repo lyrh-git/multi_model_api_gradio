@@ -285,4 +285,4 @@ if __name__ == '__main__':
     # draw_tab_components().launch(server_name="192.168.20.232", server_port=8888, share=True)
     # draw_tab_components().launch(server_name="0.0.0.0", server_port=8888, share=True)
     # draw_tab_components().launch(server_name="0.0.0.0", server_port=8800, share=True)
-    draw_tab_components().launch(server_name="192.168.21.95", server_port=8888, share=True)
+    draw_tab_components().launch(server_name="192.168.20.113", server_port=8888, share=True)

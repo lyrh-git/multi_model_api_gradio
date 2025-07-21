@@ -3,13 +3,14 @@ import re
 from config import SETTINGS, OUTPUT_SETTINGS
 
 from api_sdk.jimeng_sdk import JiMengAPI
-from other_sdk import OtherAPI
 from api_sdk.fangzhou_sdk import FangzhouAPI
-from other_sdk import ImageHandler
 from api_sdk.volcengine_sdk import VolcengineAPI
 from api_sdk.text_sdk import TextAPI
+from api_sdk.other_sdk import OtherAPI
 
 from diy_sdk import DiyAPI
+
+from common.ImageHandler import ImageHandler
 
 jimeng_api = JiMengAPI()
 other_api = OtherAPI()
